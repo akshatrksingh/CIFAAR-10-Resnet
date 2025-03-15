@@ -5,7 +5,7 @@ This repository contains the code and report for **Assignment 1** of the Deep Le
 ### Team Members
 - Rishabh Budhouliya
 - Samprith Kalakata (srk9068)
-- Akshat Singh
+- Akshat Singh (as20255)
 
 ### Project Overview
 We experimented with various ResNet modifications, focusing on architectural enhancements (e.g., SE blocks), data augmentation strategies (e.g., harsh augmentations, Mixup), and training techniques (e.g., FGSM adversarial training). Our final model (Experiment 4) balanced complexity and efficiency with 4,912,677 parameters. The report details our methodology, experiments, and results.
@@ -26,10 +26,5 @@ This confusion matrix shows the performance of our best model on the validation 
 The plot below tracks training and validation loss over 150 epochs, with red dots indicating points where augmentation severity was increased:
 
 ![Loss Curves](loss-plot.png)
-
-### Repository Structure
-- `train.ipynb`: Jupyter notebook for training and evaluating the models.
-- `report.pdf`: Project report detailing methodology, experiments, and results.
-- `checkpoints/`: Directory containing model checkpoints (e.g., `final_model_03-14.pth`).
 
 For more details, refer to the project report.
