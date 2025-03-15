@@ -20,12 +20,12 @@ The following diagram visualizes our best model (ResNet with SE blocks, [3, 4, 6
 #### Confusion Matrix (Validation Data)
 This confusion matrix shows the performance of our best model on the validation set, highlighting classification performance across CIFAR-10 classes:
 
-![Confusion Matrix for Validation Data](confusion_matrix.png)
+![Confusion Matrix for Validation Data](final-conf-matrix.png)
 
 #### Loss Curves
 The plot below tracks training and validation loss over 150 epochs, with red dots indicating points where augmentation severity was increased:
 
-![Loss Curves](loss_curves.png)
+![Loss Curves](loss-plot.png)
 
 ### Repository Structure
 - `train.ipynb`: Jupyter notebook for training and evaluating the models.
